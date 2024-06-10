@@ -1,0 +1,19 @@
+body {
+  padding-left: 100px;
+}
+
+/* Element selector */
+h1 {
+  color: blueviolet;
+  border: 1px solid blue;
+}
+
+.name-input {
+  padding: 50px;
+}
+
+.name-input:focus {
+  outline: none;
+  border: 1px solid red;
+  background-color: aqua;
+}
